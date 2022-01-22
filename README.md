@@ -67,3 +67,5 @@ Feel free to use it for your yourself and contribute in project.
 Bonus Note:
 The splash lua source in Back_code.py is optamized to abort downloading for unnecessary js css and images, and plugins to process the request
 faster and avoid 503 Errors. 
+
+All Right.
