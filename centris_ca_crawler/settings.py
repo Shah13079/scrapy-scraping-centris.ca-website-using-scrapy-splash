@@ -17,6 +17,8 @@ NEWSPIDER_MODULE = 'centris_ca_crawler.spiders'
 USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36'
  
 ROBOTSTXT_OBEY = False
+
+
 RETRY_HTTP_CODES = [401, 403, 408, 414,404, 500, 502, 503,505,504,555]
 
 
