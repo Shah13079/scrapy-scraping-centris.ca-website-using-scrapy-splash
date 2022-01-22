@@ -58,7 +58,7 @@ this will install all required dependencies and packges.
 **Run:**
 Run for output data:
 
-scrapy crawl file -o <file_name>.<extension> (csv,json,xml)
+scrapy crawl file -o <file_name>.<extension_name> (csv,json,xml)
 
 **Cancel Run Process:**
 CTRL+C to cancel.
