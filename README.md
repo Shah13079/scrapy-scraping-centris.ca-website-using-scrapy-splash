@@ -56,8 +56,9 @@ pip install -r requirements.txt
 this will install all required dependencies and packges.
 
 **Run:**
-Run for default Excel Urls file :
-scrapy crawl file -o data.csv (-o filename.csv will generate data csv file )
+Run for output data:
+
+scrapy crawl file -o <file_name>.<extension> (csv,json,xml)
 
 **Cancel Run Process:**
 CTRL+C to cancel.
@@ -68,3 +69,5 @@ Feel free to use it for your yourself and contribute in project.
 **Bonus Note:**
 The splash lua source in Back_code.py is optamized to abort downloading for unnecessary js css and images, and plugins to process the request
 faster and avoid 503 Errors. 
+    
+And instead of local splash host, you can integrate Zyte cloud splash instance, so you will not need docker on your machine.
